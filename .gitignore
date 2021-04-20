@@ -1,0 +1,17 @@
+
+*.ckpt
+*.txt
+*.txt
+*.xml
+*.iml
+*.pyc
+*.iml
+.idea/lstm_pos_tagger.iml
+.idea/misc.xml
+lstm_my
+model_lstm_v2
+temp2.py
+temp.py
+validate.py
+.idea/lstm_pos_tagger.iml
+model_lstm

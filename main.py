@@ -186,5 +186,11 @@ with torch.no_grad():
             if (i + 1) % 100 == 0:
                 print('Sampled [{}/{}] words and save to {}'.format(i + 1, num_samples, 'sample.txt'))
 
+PATH = "model_lstm"
+torch.save({
+            'epoch': epoch,
+            'model_state_dict': model.state_dict(),
+            'optimizer_state_dict': optimizer.state_dict(),
+            'loss': loss,
+            }, PATH)
 
-torch.save(model.state_dict(), 'model_LSTM.ckpt')
