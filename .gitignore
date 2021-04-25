@@ -15,3 +15,7 @@ temp.py
 validate.py
 .idea/lstm_pos_tagger.iml
 model_lstm
+BiLSTM/.vector_cache/glove.6B.100d.txt.pt
+BiLSTM/.data/udpos/en-ud-v2.zip
+BiLSTM/model1.pt
+BiLSTM/.vector_cache/glove.6B.zip
